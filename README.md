@@ -3,7 +3,7 @@
 Launch Redis server
 
 ```bash
-docker run -d -p 6379:6379 --name redis atamos/redisgeo:latest
+docker run -d -p 6379:6379 --name redis atamos/docker-redis-geo
 ```
 
 Get Redis server ip
